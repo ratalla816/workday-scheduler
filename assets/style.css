@@ -19,6 +19,8 @@ textarea{
   text-align: center;
   background-color: transparent;
   color: black;
+  /* position: -webkit-sticky; */
+  /* position: sticky; */
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -80,7 +82,7 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-/* new styles */
+/* taskmaster pro styles */
 body {
   font-family: 'Open Sans', sans-serif;
 }

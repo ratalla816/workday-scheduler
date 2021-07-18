@@ -30,9 +30,7 @@ var loadTasks = function() {
       Tuesday: [],
       Wednesday: [],
       Thursday: [],
-      Friday: [],
-      Saturday: [],
-      Sunday: []
+      Friday: []
     };
   }
 

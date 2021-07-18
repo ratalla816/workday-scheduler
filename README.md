@@ -27,7 +27,10 @@ https://ratalla816.github.io/workday-scheduler/
 
 #### acknowledgements
 
-* Web APIs Challenge: Work Day Scheduler - KU Coding Bootcamp, Module 5 Challenge Assignment © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand Confidential and Proprietary. All Rights Reserved.
+* Web APIs Challenge: Work Day Scheduler - KU Coding Bootcamp, Module 5 Challenge Assignment © 2021 Trilogy Education Services, LLC, a 2U, Inc. 
+brand Confidential and Proprietary. All Rights Reserved.
+
+* Taskmaster-Pro: KU Coding Bootcamp, Module 5 Activity © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
 #### MIT License
 
