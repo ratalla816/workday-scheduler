@@ -5,15 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!--starter code styles  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" />
-  <!--taskmaster pro styles -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css"> -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/style.css" />
   <title>Work Day Scheduler</title>
@@ -26,39 +21,80 @@
          ---"--- --->
 <body>
   <header class="jumbotron">
-    <h1 class="display-3">Work Day Scheduler</h1>
+    <h1 class="display-4 text-success bg-dark">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
-<section id="0900" class="row">
-      <div class="col-md-1">
-          0900
-      </div>
-      <input-field class="col-10 d-flex align-items-center justify-content-start">
-    </input-field>
-    <save class="col-md-1 btn-save"><i class="oi oi-plus mr-2"></i></save>
-</section>
 
-</body>
-<footer>
-  <div>
-  </div>
-</footer> 
-</div>
+  <!-- "hour" gets or sets the hour: Mjs. -->
+<section id="hour9" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark"> 
+        0900 </div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+  
+<section id="hour10" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1000</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+  
+<section id="hour11" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1100</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
 
+<section id="hour12" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1200</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+  
+<section id="hour13" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1300</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+ 
+<section id="hour14" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1400</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+  
+<section id="hour15" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1500</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+  
+<section id="hour16" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1600</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+  
+<section id="hour17" class="row time-block">
+      <div class="col-md-1 hour text-success bg-dark">
+        1700</div>
+      <textarea class="col-md-10 bg-secondary text-light description"></textarea>
+      <button class="saveBtn col-md-1"><i class="oi oi-plus mr-2"></i></button>
+    </section>
+    </div>
 
-
-         <!-- Starter code js -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<!--taskmaster pro js  -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-  <script src="./assets/script.js"></script>
-</body>
+       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+     <script src="./assets/script.js"></script>
+  </body>
 </html>
