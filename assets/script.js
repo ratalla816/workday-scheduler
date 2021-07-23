@@ -23,7 +23,8 @@ $(document).ready(function () {
 
     // string argument determines where the current hour is in relation to the rest of the hours in the array (blockTime).
     $(".time-block").each(function () {
-      // substring ($(this) determines the temporal position of each hour // substring ("hour")[1] cycles through each hour.
+      // split string determines the temporal position of each hour //
+      // substring parseInt($(this) gets the numeric value of the hour from the array // substring ("hour")[1] cycles through each hour.
       var blockTime = parseInt($(this).attr("id").split("hour")[1]);
       // console.log($(this));
 
